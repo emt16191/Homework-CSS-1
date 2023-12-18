@@ -1,0 +1,154 @@
+/*  Урок 1  */
+
+/* task 1 */
+:root {
+  background: white;
+}
+/* task 2 */
+* {
+  color: black;
+}
+/* task 3 */
+h1 {
+  background: blue;
+}
+/* task 4 */
+.green {
+  color: green;
+}
+/* task 5 */
+#blue {
+  color: blue;
+}
+/* task 6 */
+.box {
+  background: green;
+}
+
+.box p {
+  background: red;
+}
+/* task 7 */
+.brown {
+  background: brown;
+  color: white;
+}
+/* task 8 */
+ul > li {
+  background: red;
+}
+/* task 9 */
+.header-button + span {
+  background: red;
+}
+/* task 10 */
+.susid ~ p {
+  background: blue;
+  color: white;
+}
+/* task 11 */
+.salo,
+#bread {
+  background-color: yellow;
+}
+
+/* **************************************** */
+
+/*  Урок 2  */
+
+/* task 1 */
+.first-task :first-child {
+  color: white;
+}
+/* task 2 */
+.second-task ul:first-child li:first-child {
+  color: yellow;
+}
+/* task 3 */
+.third-task ul + ul li:first-child {
+  background: yellow;
+}
+/* task 4 */
+.four-task ul li:last-child {
+  background: yellow;
+}
+/* task 5 */
+.five-task ul + ul li:last-child {
+  color: white;
+}
+/* task 6 */
+.only-child-task :only-child {
+  color: red;
+}
+/* task 7 */
+.seven-task p:first-of-type {
+  background: red;
+}
+/* task 8 */
+.eight-task p:last-of-type {
+  background: red;
+}
+/* task 9 */
+.text-wrapper p:only-of-type {
+  background: yellow;
+}
+/* **************************************** */
+
+/*  Урок 3  */
+
+/* task 1 */
+.lesson-three-task-one a[href] {
+  color: white;
+}
+/* task 2 */
+.lesson-three-task-two li[value] {
+  color: yellow;
+}
+/* task 3 */
+.lesson-three-task-three li[value='3'] {
+  background: red;
+}
+/* task 4 */
+.lesson-three-task-four button[class~='primary'] {
+  background: blue;
+}
+/* task 5 */
+.lesson-three-task-five button[class|='secondary'] {
+  background: red;
+}
+/* task 6 */
+.lesson-three-task-six li[class^='b'] {
+  background: white;
+  color: green;
+}
+/* task 7 */
+.lesson-three-task-seven li[class*='on'] {
+  background: white;
+  color: green;
+}
+/* task 8 */
+.lesson-three-task-eight span[class$='s'] {
+  background: white;
+  color: blue;
+}
+/* task 9 */
+.lesson-three-task-nine h2::first-letter {
+  color: red;
+}
+/* task 10 */
+.lesson-three-task-ten p::first-line {
+  background: yellow;
+}
+/* task 11 */
+.lesson-three-task-eleven input::placeholder {
+  background: red;
+}
+/* task 12 */
+.lesson-three-task-twelve li::before {
+  content: '➤';
+}
+/* task 13 */
+.lesson-three-task-thirteen li::after {
+  content: '➤';
+}
+/* **************************************** */
